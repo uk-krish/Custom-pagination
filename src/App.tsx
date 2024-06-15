@@ -34,7 +34,7 @@ function App() {
 
   return (
     <main className="text-white max-w-[1280px] mx-auto flex flex-col">
-      <h1 className="text-green-300">Hello</h1>
+      <h1 className="text-green-300 font-medium  text-2xl mx-auto my-6">Responsive Table with Pagination</h1>
       <Table user={curentPageData} />
       <Pagination
         totalPage={totalPage}
